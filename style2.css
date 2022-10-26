@@ -1,0 +1,21 @@
+.padre{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-items: center;
+}
+
+
+.imagen, .head{
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    max-width:100%;
+}
+
+.head, .articulo, .foot, .imagen{
+    flex-grow: 1;
+    flex-basis: 100%; 
+    padding: 10px;
+}

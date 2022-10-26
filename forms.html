@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="padre">
+    <div class="head"> 
+      <img src="imagenes/logoAgencia.png" alt="" class="imagen">
+    </div>
+
+
+    <aside class="article">
+      <form action="" name="formulario" method="get">
+        <fieldset>
+          <legend>Datos personales</legend>
+         
+   
+
+   
+         
+   
+
+                <label>Nombre: <input type="text" name="nombre" maxlength="100"></label>
+
+        
+        
+              
+        
+        <p>
+                <label>Apellido: <input type="text" name="apellido" maxlength="100"></label>
+              </p>
+        
+        
+              
+        
+        <p>
+                Genero :
+                <label><input type="radio" name="genero" value="Femenino" /> Femenino</label>
+                <label><input type="radio" name="genero" value="Masculino" /> Masculino</label>
+                <label><input type="radio" name="genero" value="Otro" /> Otro</label>
+              </p>
+        
+        
+              
+        
+        <p>
+                <label>Email:<input type="email" name="mail"></label>
+              </p>
+        
+        
+              
+        
+        <p>
+                <label>Fecha de nacimiento:<input type="date" name="fecha" id="fecha"></label>
+              </p>
+              <p>
+                  <label>
+                    Estudios alcanzados
+                    <br />
+                    <select name="estudios">
+                      <option>Seleccione</option>
+                      <option>Ninguno</option>
+                      <option>Primario</option>
+                      <option>Secundario</option>
+                      <option>Terciario</option>
+                      <option>De Grado</option>
+                    </select>
+                  </label>
+                </p>
+        
+              
+        
+        <p>
+                <label>
+                  Direccion (opcional):
+                  <br />
+                  <textarea name="direccion" cols="30" rows="3"></textarea>
+                </label>
+              </p>
+        
+        
+              
+        
+        <p>
+          <input type="button" value="Enviar" onclick="validarForm()">
+              </p>
+        
+        
+            </fieldset>
+    </form>
+  </aside>
+  <aside class="foot">
+    <img src="imagenes/thumbnail_codo-a-codo.jpg" alt=""> </br>
+    <a href="index.html">Volver atras</a>
+  </aside>
+  </div>
+  <script src="./valid.js"></script>
+  </body>
+</html>
